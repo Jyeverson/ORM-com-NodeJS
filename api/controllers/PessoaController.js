@@ -3,10 +3,10 @@ const database = require('../models')
 class PessoaController {
    static async pegaTodasAsPessoas(req, res){
        try {
-        const todasAsPessoas = await database.Pessoas.findAll()
-        return res.statusCode(200).json(todasAsPessoas)
+            const todasAsPessoas = await database.Pessoas.findAll()
+            return res.status(200).json(todasAsPessoas)
        } catch (error) {
-           return res.statusCode(500).json(error.message)
+           return res.status(500).json(error.message)
        }
     }
 }
