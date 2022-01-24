@@ -1,5 +1,5 @@
 {
-  "name": "orm-com-nodejs",
+  "name": "orm-sequelize",
   "version": "1.0.0",
   "description": "",
   "main": "./api/index.js",
@@ -7,26 +7,18 @@
     "start": "nodemon ./api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jyeverson/ORM-com-NodeJS.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jyeverson/ORM-com-NodeJS/issues"
-  },
-  "homepage": "https://github.com/Jyeverson/ORM-com-NodeJS#readme",
   "dependencies": {
-    "body-parser": "^1.19.1",
-    "express": "^4.17.2",
-    "mysql2": "^2.3.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
     "path": "^0.12.7",
-    "sequelize": "^6.12.4",
-    "sequelize-cli": "^6.3.0"
+    "sequelize": "^5.21.7",
+    "sequelize-cli": "^5.5.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.3"
   }
 }
